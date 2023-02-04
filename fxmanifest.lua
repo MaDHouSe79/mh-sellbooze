@@ -12,7 +12,7 @@ shared_scripts {
     '@PolyZone/CircleZone.lua',
     '@PolyZone/ComboZone.lua',
     '@qb-core/shared/locale.lua',
-    'locale/nl.lua', -- replace with desired language
+    'locales/en.lua', -- replace with desired language
     'config.lua'
 }
 
