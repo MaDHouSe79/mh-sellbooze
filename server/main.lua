@@ -1,9 +1,9 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 
 local function SellAllItems(id)
-	local Player = QBCore.Functions.GetPlayer(id)
+    local Player = QBCore.Functions.GetPlayer(id)
     local hasSell = false
-	if Player then
+    if Player then
         for _, data in pairs(Config.BuyingItems) do
             local items = exports['qb-inventory']:GetItemsByName(id, data.name)
             if items ~= nil then
@@ -21,12 +21,12 @@ local function SellAllItems(id)
         if not hasSell then
             TriggerClientEvent("QBCore:Notify", id, Lang:t('notify.no_items_to_sell'))
         end
-	end
+    end
 end
 
 RegisterServerEvent('mh-sellbooze:server:SellAllItems', function()
-	local src = source
-	SellAllItems(src)
+    local src = source
+    SellAllItems(src)
 end)
 
 RegisterNetEvent('mh-sellbooze:server:SellItemMenu', function()
