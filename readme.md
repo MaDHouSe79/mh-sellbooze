@@ -28,7 +28,7 @@
 
 # MH Sell Booze
 - Just sell your booze that you find on your way.
-- We don't want it to throw away, but we what do we do with it? 
+- We don't want it to throw away, but what we do we with it? 
 - Now we can sell it, than this item is not useless anymore :P
 
 # Install
