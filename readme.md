@@ -31,6 +31,10 @@
 - We don't want it to throw away, but we what do we do with it? 
 - Now we can sell it, than this item is not useless anymore :P
 
+# Install
+- 1. Create a folder `[mh] `in the folder `resources` and place the folder `mh-sellbooze` inside the `[mh]` folder
+- 2. Add in the server.cfg, `ensure [mh]` (make sure you ensure it after the `ensure [qb]`)
+
 ## 🐞 Any bugs issues or suggestions, let my know. 👊😎
 
 ## 🙈 Youtube & Discord
