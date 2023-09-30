@@ -35,11 +35,8 @@
 - 1. Create a folder `[mh] `in the folder `resources` and place the folder `mh-sellbooze` inside the `[mh]` folder
 - 2. Add in the server.cfg, `ensure [mh]` (make sure you ensure it after the `ensure [qb]`)
 
-## 🐞 Any bugs issues or suggestions, let my know. 👊😎
-
-## 🙈 Youtube & Discord
-- [Youtube](https://www.youtube.com/@MaDHouSe79) for videos
-- [Discord](https://discord.gg/cEMSeE9dgS)
+# 🙈 Youtube
+- [Youtube](https://www.youtube.com/c/MaDHouSe79)
 
 # LICENSE
 [GPL LICENSE](./LICENSE)<br />
