@@ -12,7 +12,7 @@ local function SellAllItems(id)
                         hasSell = true
                         Player.Functions.AddMoney('cash', data.buy_price * item.amount)
                         Player.Functions.RemoveItem(data.name, item.amount, item.slot)
-                        TriggerClientEvent('inventory:client:ItemBox', id, QBCore.Shared.Items[data.name], 'remove', item.amount)
+                        TriggerClientEvent('qb-inventory:client:ItemBox', id, QBCore.Shared.Items[data.name], 'remove', item.amount)
                         TriggerClientEvent("QBCore:Notify", id, Lang:t('notify.you_sell_all_items'))
                     end
                 end               
